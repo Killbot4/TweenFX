@@ -1,8 +1,25 @@
+@icon("res://addons/TweenFX/icon.png")
+## TweenFX — A juicy tween animation library for Godot 4.
+## [br][br]
+## Provides one-shot and looping animations for CanvasItem nodes.
+## Call any animation directly, stop it explicitly, or await its completion.
+## [br][br]
+## All animations are tracked automatically. Use [method stop] and [method stop_all]
+## to interrupt running animations, and [method is_playing] to check their state.
+## [br][br]
+## [b]Basic usage:[/b]
+## [codeblock]
+## TweenFX.shake(node)
+## TweenFX.shake(node, 0.5, 20.0, 8)
+## await TweenFX.shake(node).finished
+## [/codeblock]
 extends Node
-
 const TweenManager = preload("res://addons/TweenFX/TweenManager.gd")
 
 #region ENUM
+## Some animations support [b]PlayState[/b] for interactive use.
+## [b]ENTER[/b] and [b]EXIT[/b] are designed as pairs.[br]
+## [i]Pass the target property explicitly so TweenFX always knows where to go regardless of the node's current state.
 enum PlayState {
 	FULL,       # play complete animation
 	ENTER,      # animate to target state and hold
@@ -133,18 +150,23 @@ const ANIMATION_REQUIREMENTS: Dictionary = {
 #endregion
 
 #region LOGIC
+## Stops a specific animation running on the node.
 func stop(node: CanvasItem, anim: Animations) -> void:
 	TweenManager.stop(node, anim)
 
+## Stops all animations currently running on the node.
 func stop_all(node: CanvasItem) -> void:
 	TweenManager.stop_all(node)
 
+## Returns true if the given animation is currently playing on the node.
 func is_playing(node: CanvasItem, anim: Animations) -> bool:
 	return TweenManager.is_playing(node, anim)
 
+## Returns true if the animation loops indefinitely until stopped.
 func is_looping_type(anim: Animations) -> bool:
 	return ANIMATION_TYPES.get(anim, AnimationType.ONE_SHOT) == AnimationType.LOOPING
 
+## Returns true if the animation requires a Node2D target instead of CanvasItem.
 func requires_node2d(anim: Animations) -> bool:
 	return ANIMATION_REQUIREMENTS.get(anim, NodeRequirement.CANVAS_ITEM) == NodeRequirement.NODE_2D
 	
