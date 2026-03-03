@@ -1,6 +1,8 @@
 # TweenFX
 A simple, juicy tween animation library for Godot 4.
 
+![file](https://github.com/user-attachments/assets/c3731804-9a2d-478e-bdc4-a8c2b362a9d2)
+
 ## Installation
 1. Download from the [Godot Asset Library](https://godotengine.org/asset-library/asset/4827) or copy `addons/TweenFX` into your project
 2. Enable the plugin in Project Settings → Plugins
